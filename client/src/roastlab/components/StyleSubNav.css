@@ -1,0 +1,29 @@
+.nav {
+    background-color: #cccacaad;
+    height: 50px;
+    display: flex;
+    position: sticky;
+    top: 5.2rem;
+    overflow: hidden;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    z-index: 9999;
+  }
+  .nav a {
+    flex: 1;
+    height: 100%;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #353232;
+    transition: .2s ease-in-out all;
+    font-weight: 500;
+  }
+  .rounded{
+    border-radius: 20%;
+  }
+  .nav a:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+  }

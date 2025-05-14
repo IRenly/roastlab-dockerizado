@@ -1,0 +1,29 @@
+.box{
+  width: 100%;
+  height: 100%;            
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.2;  /* for demo purpose  */
+}
+.stack-top{
+  z-index: 9;
+--mask:
+radial-gradient(112.48px at calc(100% + 93.50px) 50%,#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) calc(50% - 31.5px + .5px) calc(50% - 110px)/ 63px 220px  repeat-y,
+radial-gradient(112.48px at -93.5px 50%,#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) calc(50% + 31.5px) 50%/63px 220px  repeat-y;
+-webkit-mask: var(--mask);
+      mask: var(--mask);
+      background-color: white;
+      height: 100%;
+      position: absolute;
+}
+
+.factor{
+  width: 1fr;
+  height: 35vh;
+}
+
+.curva{
+  width: 1fr;
+  height: 35vh;
+}

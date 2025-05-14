@@ -1,0 +1,45 @@
+/* Style Main */
+.div-main{
+    background-color: gray;
+    text-align: center;
+}
+.h1-main{
+    color: rgb(235, 233, 233);
+}
+.div-maincard{
+    margin: 40px;
+}
+
+/* Style Search */
+
+.div-search{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    justify-content: center;
+}
+.span-search{
+    padding: 7px;
+    font-size: 30px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.input-search{
+    width: 60vh;
+    font-size: 20px;
+    border-color: gray;
+    border: px;
+}
+
+.btn-search{
+
+}
+
+/* Style Sociodemografico */
+
+
+/* Style Produccion */
+
+
+/* Style Cultivo */
+
